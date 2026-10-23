@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "applicationId": "dev.aurimas.homeremote",
-  "versionCode": 10,
-  "versionName": "1.2.1",
-  "releaseNotes": "Improved LG TV discovery when the advertised description port changes, with bounded retries and better scan failure handling. Added automatic private local diagnostics for connection failures and unexpected app errors. Tap Diagnostics on a connection error, or Settings → Connection diagnostics, then Copy report or Share report. Reports omit pairing keys, typed text, private TV addresses and raw error messages. Reports are shared only when you choose; there is no automatic upload. Existing themes and TV controls are retained.",
-  "apkUrl": "https://github.com/winniepx/home-remote-releases/releases/download/v1.2.1/HomeRemote.apk",
-  "apkSha256": "fa7662a12ea4408682e0e993ca7bc55973518bce7d4bcd790b6fbc5e3fef8f3d",
-  "apkSizeBytes": 1655768
+  "versionCode": 12,
+  "versionName": "1.2.3",
+  "releaseNotes": "Home Remote 1.2.3\n\n- Clarifies secure WSS and unencrypted WS compatibility modes and adds an explicit secure-connection retry.\n- Preserves saved pairing, appearance and preferences during connection recovery and updates.\n- Adds local redacted connection-attempt timelines, stage evidence, cancellation reasons and sanitized failure details to diagnostics.\n- Reports remain on the phone until you choose Copy or Share.\n\nInstall over the existing app. Do not uninstall or clear app data to update.",
+  "apkUrl": "https://github.com/winniepx/home-remote-releases/releases/download/v1.2.3/HomeRemote.apk",
+  "apkSha256": "9e916d6082ab117fc11c1ef252e7111c30517848d013d1d5908162b7d53cb790",
+  "apkSizeBytes": 1672152
 }
