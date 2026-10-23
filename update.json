@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "applicationId": "dev.aurimas.homeremote",
+  "versionCode": 8,
+  "versionName": "1.1.1",
+  "releaseNotes": "New compact remote: more controls fit on screen, with Netflix, YouTube and Prime Video shortcuts and a small connection indicator. Unfolded screens show a companion touchpad. Wireless installation and manual in-app updates are available through GitHub, with download verification and Android confirmation. Compatible updates retain pairing and preferences.",
+  "apkUrl": "https://github.com/winniepx/home-remote-releases/releases/download/v1.1.1/HomeRemote.apk",
+  "apkSha256": "6236ed934f0ee3e7795c3fcd4736c2a1abc34d012852daf2cfb140223fe6124a",
+  "apkSizeBytes": 1438302
+}
