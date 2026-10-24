@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "applicationId": "dev.aurimas.homeremote",
-  "versionCode": 13,
-  "versionName": "1.2.4",
-  "releaseNotes": "Home Remote 1.2.4\n\n- Shows a clear TV-not-ready message when the TV declines control and pauses repeated policy reconnects without clearing pairing.\n- Adds an easier wake setup using network addresses reported by the connected TV, with explicit Wi-Fi or Ethernet selection.\n- Keeps wake requests explicit and limits the connection wait after a wake request.\n- Improves local redacted diagnostics for TV close reasons, prior connection stages and retained attempt history.\n\nInstall over the existing app. Wake requires a saved TV network address and the TV's mobile/network-wake setting. Check the TV screen to confirm it woke.",
-  "apkUrl": "https://github.com/winniepx/home-remote-releases/releases/download/v1.2.4/HomeRemote.apk",
-  "apkSha256": "594e642b129f0b46630520d6e64bbf7d432e5ace3d02e09dc0e4bbbbc858eab8",
-  "apkSizeBytes": 1672148
+  "versionCode": 14,
+  "versionName": "1.3.0",
+  "releaseNotes": "# Home Remote 1.3.0\n\n- A clearer daily remote across all five themes: navigation, horizontal volume, playback and app shortcuts, with secondary keys in More.\n- Tap the TV name to manage multiple saved LG TVs, with separate local pairing, favourites and settings for each.\n- Tap connection status for details, retry and independent navigation recovery.\n- Prepare navigation after connecting, cache stable TV information and use live state subscriptions to reduce repeated work.\n- Preserve the existing secure local connection and manual update flow.\n\nInstall over the existing Home Remote app and confirm Android's installation prompt. Do not uninstall or clear app data. TV controls and wake availability still depend on the TV, active app and home network. This release does not add support for other TV brands.",
+  "apkUrl": "https://github.com/winniepx/home-remote-releases/releases/download/v1.3.0/HomeRemote.apk",
+  "apkSha256": "4247ebb431ac9f2a05bee0241e9f13065193ecc968c338982d1835a2a3bad563",
+  "apkSizeBytes": 1852430
 }
