@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "applicationId": "dev.aurimas.homeremote",
-  "versionCode": 12,
-  "versionName": "1.2.3",
-  "releaseNotes": "Home Remote 1.2.3\n\n- Clarifies secure WSS and unencrypted WS compatibility modes and adds an explicit secure-connection retry.\n- Preserves saved pairing, appearance and preferences during connection recovery and updates.\n- Adds local redacted connection-attempt timelines, stage evidence, cancellation reasons and sanitized failure details to diagnostics.\n- Reports remain on the phone until you choose Copy or Share.\n\nInstall over the existing app. Do not uninstall or clear app data to update.",
-  "apkUrl": "https://github.com/winniepx/home-remote-releases/releases/download/v1.2.3/HomeRemote.apk",
-  "apkSha256": "9e916d6082ab117fc11c1ef252e7111c30517848d013d1d5908162b7d53cb790",
-  "apkSizeBytes": 1672152
+  "versionCode": 13,
+  "versionName": "1.2.4",
+  "releaseNotes": "Home Remote 1.2.4\n\n- Shows a clear TV-not-ready message when the TV declines control and pauses repeated policy reconnects without clearing pairing.\n- Adds an easier wake setup using network addresses reported by the connected TV, with explicit Wi-Fi or Ethernet selection.\n- Keeps wake requests explicit and limits the connection wait after a wake request.\n- Improves local redacted diagnostics for TV close reasons, prior connection stages and retained attempt history.\n\nInstall over the existing app. Wake requires a saved TV network address and the TV's mobile/network-wake setting. Check the TV screen to confirm it woke.",
+  "apkUrl": "https://github.com/winniepx/home-remote-releases/releases/download/v1.2.4/HomeRemote.apk",
+  "apkSha256": "594e642b129f0b46630520d6e64bbf7d432e5ace3d02e09dc0e4bbbbc858eab8",
+  "apkSizeBytes": 1672148
 }
