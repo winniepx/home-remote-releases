@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "applicationId": "dev.aurimas.homeremote",
-  "versionCode": 15,
-  "versionName": "1.3.1",
-  "releaseNotes": "Home Remote 1.3.1\n\n- Repairs mute/unmute state handling when the TV reports volume and mute separately. Changes wait for reported TV state; uncertain commands are never repeated automatically.\n- Adds the supplied genuine Netflix, YouTube and Prime Video artwork to all five themes.\n- Adds a little spacing while retaining existing control sizes and safe scrolling for short windows or large text.\n\nInstall this compatible update over Home Remote to retain local pairing, saved TVs and preferences. Do not uninstall or clear app data. Each phone keeps its own pairing. TV control remains local; update checks use the existing GitHub download flow.",
-  "apkUrl": "https://github.com/winniepx/home-remote-releases/releases/download/v1.3.1/HomeRemote.apk",
-  "apkSha256": "7223d6d6c8875ca98e782700f889ed1dc232419b8ae8f6aef114991557adc9d3",
-  "apkSizeBytes": 1893430
+  "versionCode": 16,
+  "versionName": "1.4.0",
+  "releaseNotes": "Home Remote 1.4.0\n\n- Refines the five existing remote styles and focused Settings. Short-window and large-text layouts were checked in the Android emulator.\n- Improves saved-TV recovery while retaining pairing, profiles and preferences.\n- Attempts automatic wake setup from information shared by the paired TV where supported, with clearer Retry and setup help. Existing manual setup is retained. TV settings, network and standby behavior still affect wake.\n- Shows the current TV app/input and enables Play/Pause only when reliable state is available. Exact skips, episode actions and programme title/timeline information remain unavailable in this LG release.\n\nInstall this compatible update over the existing Home Remote app to keep local data. Do not uninstall or clear app data. Each phone keeps its own TV pairing. TV control stays local; update checks/downloads use the existing GitHub internet flow.\n\nHelp: https://remote.signum.ie/support/\nPrivacy information: https://remote.signum.ie/privacy/",
+  "apkUrl": "https://github.com/winniepx/home-remote-releases/releases/download/v1.4.0/HomeRemote.apk",
+  "apkSha256": "43a34737f65cef3dfb65f6514291abe1418890aae0b827b2c633b1dfd2b6c72a",
+  "apkSizeBytes": 1942586
 }
