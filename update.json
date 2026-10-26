@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "applicationId": "dev.aurimas.homeremote",
-  "versionCode": 16,
-  "versionName": "1.4.0",
-  "releaseNotes": "Home Remote 1.4.0\n\n- Refines the five existing remote styles and focused Settings. Short-window and large-text layouts were checked in the Android emulator.\n- Improves saved-TV recovery while retaining pairing, profiles and preferences.\n- Attempts automatic wake setup from information shared by the paired TV where supported, with clearer Retry and setup help. Existing manual setup is retained. TV settings, network and standby behavior still affect wake.\n- Shows the current TV app/input and enables Play/Pause only when reliable state is available. Exact skips, episode actions and programme title/timeline information remain unavailable in this LG release.\n\nInstall this compatible update over the existing Home Remote app to keep local data. Do not uninstall or clear app data. Each phone keeps its own TV pairing. TV control stays local; update checks/downloads use the existing GitHub internet flow.\n\nHelp: https://remote.signum.ie/support/\nPrivacy information: https://remote.signum.ie/privacy/",
-  "apkUrl": "https://github.com/winniepx/home-remote-releases/releases/download/v1.4.0/HomeRemote.apk",
-  "apkSha256": "43a34737f65cef3dfb65f6514291abe1418890aae0b827b2c633b1dfd2b6c72a",
+  "versionCode": 17,
+  "versionName": "1.4.1",
+  "releaseNotes": "Home Remote 1.4.1 improves the playback controls across all five Android themes.\n\n- Rewind and Fast-forward use the existing native LG commands. The foreground TV app determines their behaviour; no fixed jump duration is promised.\n- One central Play/Pause uses fresh playback state. Separate Play and Pause remain available when state is unknown or stale.\n- Remove numbered skips and hide unverified Restart/Next actions. Improve large-text layout without shrinking touch targets.\n- Preserve the existing package, signing identity, profiles and pairing storage for an in-place update.\n\nPhysical Netflix, YouTube and Prime Video playback observations remain pending. Programme-title support remains under investigation. This update adds no YouTube internet integration.",
+  "apkUrl": "https://github.com/winniepx/home-remote-releases/releases/download/v1.4.1/HomeRemote.apk",
+  "apkSha256": "4327696e49fcc320ec5bfc722b4b64d2aee2ed3e08637d8f23e87715a6bdce2f",
   "apkSizeBytes": 1942586
 }
