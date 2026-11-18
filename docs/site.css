@@ -1,0 +1,21 @@
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  color: light-dark(#152334, #eaf1fa);
+  background: light-dark(#f5f8fc, #111a24);
+}
+
+main {
+  max-width: 43rem;
+  margin-inline: auto;
+  padding: clamp(1.5rem, 5vw, 4rem);
+}
+
+h1, h2 { line-height: 1.2; }
+h1 { font-size: clamp(2rem, 5vw, 3.15rem); }
+h2 { margin-top: 2rem; font-size: 1.25rem; }
+ol { padding-inline-start: 1.5rem; }
+li + li { margin-top: 0.35rem; }
+a { color: light-dark(#154a90, #9ec8ff); text-underline-offset: 0.16em; }
+a:focus-visible { outline: 0.15rem solid currentColor; outline-offset: 0.2rem; }
